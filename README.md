@@ -46,11 +46,11 @@
 
 * Start the backup of the application (manually, not scheduled)
 
-[![kasten-backup-started](https://github.com/fdavalo/backup-restore-with-kasten/blob/main/kasten-backup-done.png?raw=true)](kasten-backup-done.png)
+[![kasten-backup-done](https://github.com/fdavalo/backup-restore-with-kasten/blob/main/kasten-backup-started.png?raw=true)](kasten-backup-started.png)
 
 * See the end of the backup and the export on S3 location, the result of the backup (crypted restore points)
 
-[![kasten-backup-done](https://github.com/fdavalo/backup-restore-with-kasten/blob/main/kasten-backup-started.png?raw=true)](kasten-backup-started.png)
+[![kasten-backup-started](https://github.com/fdavalo/backup-restore-with-kasten/blob/main/kasten-backup-done.png?raw=true)](kasten-backup-done.png)
 
 * See snapshots have been created for persistent volume claims of the application gogs-helm
 
