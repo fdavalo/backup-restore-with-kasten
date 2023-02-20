@@ -6,19 +6,29 @@
 
 [![clusters-bm2-bm3](https://github.com/fdavalo/backup-restore-with-kasten/blob/main/acm-bm2-bm3.png?raw=true)](acm-bm2-bm3.png)
 
-* Install operator Kasten 
+* Install operator Kasten
+ 
+  Applied with ACM/MCE clustersets on day2
   
     cf https://github.com/fdavalo/cluster-configuration/tree/main/applications/static-clusters-post-install/kasten
   
     cf https://github.com/fdavalo/cluster-configuration/tree/main/applications/static-clusters-post-install/kasten-instance
 
-* Install operator Open Data Foundation (using file and block storage for application persistence, and s3 for exporting backup data)
+* Install operator Open Data Foundation
+
+   Using file and block storage for application persistence, and s3 for exporting backup data
+   
+   Applied with ACM/MCE clustersets on day2
   
     cf https://github.com/fdavalo/cluster-configuration/tree/main/applications/post-install/odf
   
     cf https://github.com/fdavalo/cluster-configuration/tree/main/applications/post-install/odf-instance
 
-* Install an application on bm3 for demonstration (here gogs-helm, a github like application) with fie and block persisten storage claims
+* Install an application on bm3 for demonstration 
+
+  Here gogs-helm, a github like application) with fie and block persisten storage claims
+
+  Deployed with ACM GitOps on bm3
   
        project: default
        source:
